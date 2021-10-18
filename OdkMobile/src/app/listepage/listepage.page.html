@@ -1,0 +1,9 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>liste des Apprenants ODK</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item *ngFor="let user of liste">{{ user.nom + ' ' + user.prenom }}</ion-item>
+</ion-content>
